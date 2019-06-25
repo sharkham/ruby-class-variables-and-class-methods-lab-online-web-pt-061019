@@ -37,5 +37,6 @@ class Song
         @@genre_count_hash[genre] += 1
       end
     end
+    @@genre_count_hash
   end
 end
