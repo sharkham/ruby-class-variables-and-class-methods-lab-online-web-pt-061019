@@ -34,6 +34,7 @@ class Song
         @@genre_count_hash[genre] = 1
       elsif @@genre_count_hash.has_key?(genre)
         #increment the value of that key by one
+        @@genre_count_hash[genre] += 1 
       end
     end
   end
